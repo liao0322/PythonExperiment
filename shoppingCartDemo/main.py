@@ -5,6 +5,7 @@ def file_to_list(filename):
     try:
         with open(filename) as f:
             for raw in f:
+
                 raw_dict = {}
                 raw_list = raw.strip().split(',')
                 raw_dict["name"] = raw_list[0]
