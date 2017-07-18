@@ -17,8 +17,13 @@ with open('yesterday', encoding='utf-8') as f:
 
 
 
-f = open("yesterday", encoding='utf-8')
+with open("yesterday", 'r+', encoding='utf-8') as f:
+    for raw in f:
+        if '不知为何' in raw:
+            raw = raw[4:]
 
-print(f.read())
-print('------------------------------')
-print(f.read())
+        print(raw, end='')
+
+
+
+
