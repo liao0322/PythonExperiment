@@ -17,12 +17,14 @@ with open('yesterday', encoding='utf-8') as f:
 
 
 
-with open("yesterday", 'r+', encoding='utf-8') as f:
-    for raw in f:
-        if '不知为何' in raw:
-            raw = raw[4:]
+with open("yesterday", 'r', encoding='utf-8') as f, \
+    open("yesterday2", 'w', encoding='utf-8') as f2:
 
-        print(raw, end='')
+    for raw in f:
+        if "生命" in raw:
+            raw = raw.replace("生命", "life")
+        f2.write(raw)
+
 
 
 
