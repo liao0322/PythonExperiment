@@ -4,3 +4,11 @@ str = '''</b><a href="http://news.baidu.com/ns?cl=2&rn=20&tn=news&word=" wdfield
 </div>'''
 
 print str.find('"', str.find('<a href='))
+
+
+# find 用法
+str = 'hello world'
+
+# 没找到返回-1
+index = str.find('a')
+print(index)

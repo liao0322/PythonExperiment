@@ -25,6 +25,8 @@ with open("yesterday", 'r', encoding='utf-8') as f, \
             raw = raw.replace("生命", "life")
         f2.write(raw)
 
+        
+
 
 
 
