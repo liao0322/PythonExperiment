@@ -1,11 +1,16 @@
-strs = ['a', 'b', 'c']
 
-print strs.index('b')
+import sys
+import os
 
 
-def a(p):
-    p = p + [1]
 
-a(strs)
+print(sys.path)
+print(__file__)
 
-print strs
+print(os.path.abspath(__file__))
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
