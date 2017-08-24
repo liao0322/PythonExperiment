@@ -1,0 +1,10 @@
+Tue, 22 Aug 2017 10:46:52 demo2.py[line:40] DEBUG debug message
+Tue, 22 Aug 2017 10:46:52 demo2.py[line:41] INFO info message
+Tue, 22 Aug 2017 10:46:52 demo2.py[line:42] WARNING warning message
+Tue, 22 Aug 2017 10:46:52 demo2.py[line:43] ERROR error message
+Tue, 22 Aug 2017 10:46:52 demo2.py[line:44] CRITICAL critical message
+Tue, 22 Aug 2017 10:47:01 demo2.py[line:40] DEBUG debug message
+Tue, 22 Aug 2017 10:47:01 demo2.py[line:41] INFO info message
+Tue, 22 Aug 2017 10:47:01 demo2.py[line:42] WARNING warning message
+Tue, 22 Aug 2017 10:47:01 demo2.py[line:43] ERROR error message
+Tue, 22 Aug 2017 10:47:01 demo2.py[line:44] CRITICAL critical message
