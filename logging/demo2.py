@@ -4,8 +4,8 @@ import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                     datefmt='%a, %d %b %Y %H:%M:%S',
-                    filename='test.log',
-                    filemode='a')
+                    filename='test.log', # 如果filename不传参，则默认输出到屏幕
+                    filemode='w')
 
 '''
 logging.basicConfig()函数可通过具体参数来更改logging模块默认行为，可用参数有
