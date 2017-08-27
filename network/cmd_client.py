@@ -8,10 +8,11 @@ s.connect((HOST, PORT))
 
 while True:
     input_str = input('>>> ')
-    s.sendall(bytes(input_str, 'utf8'))
     if input_str == 'q':
         break
+    s.sendall(bytes(input_str, 'utf8'))
+
     response = s.recv(1024)
-    print('response: ', response)
+    print('response: ', str(response, 'utf8'))
 
 s.close()
