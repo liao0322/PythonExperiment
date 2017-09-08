@@ -18,7 +18,10 @@ while True:
 
     while True:
         request = conn.recv(1024)
-        if not request: break
+        if not request:
+            print('异常退出')
+            break
+
         request = str(request, 'utf-8')
         print('request', request)
 

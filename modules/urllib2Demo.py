@@ -1,9 +1,9 @@
 
 from urllib import request
 
-a = []
+a = ['http://www.cnblogs.com/yuanchenqi/articles/5707927.html', 'http://www.cnblogs.com/yuanchenqi/articles/5716193.html']
 
-for i in range(5701430, 9999999):
+for i in range(5716193, 9999999):
     url = 'http://www.cnblogs.com/yuanchenqi/articles/%d.html' % i
     try:
         with request.urlopen(url) as f:
